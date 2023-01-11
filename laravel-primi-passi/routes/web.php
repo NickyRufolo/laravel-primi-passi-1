@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('homepage');
 });
+Route::get('/about.blade.php', function () {
+    return view('about');
+});
+Route::get('/hither.blade.php', function () {
+    return view('hither');
+});
